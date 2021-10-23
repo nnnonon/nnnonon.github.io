@@ -1,0 +1,333 @@
+body{overflow-x: hidden; min-width:1900px;}
+
+.eb-font{
+	font-family: 'EliceDigitalBaeum_Bold';
+	width: 100%;
+	position: relative;
+	z-index: 12;
+	color: #ffffff;
+	left: 25px;
+	font-size: 15pt;
+		}
+
+/*배경*/
+        .bg1 {
+            width: 100%;
+            height: 5000px;
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            z-index: 5;
+        }
+.bg1 img{width: 100%;}
+
+.bg1_1 {	margin-top: 100px;
+	      	position: absolute;
+			z-index: 5;
+			width: 100%;
+			opacity: 5%;
+}
+.bg1_1 img{width: 100%;}
+
+        .bg2 {
+            
+			width: 100vw;
+            height: 5000px;
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            z-index: 10;
+        }
+.bg2 img{width: 100%;}
+
+		.bg3 {
+            width: 96%;
+            height: 500px;
+            width: 100%;
+            top: 1150px;
+            left: 70px;
+            position: absolute;
+            z-index: 7;
+        }
+.bg3 img{width: 96%;}
+
+		.bg4 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            top: 180px;
+            left: 0;
+            position: absolute;
+            z-index: 6;
+        }
+.bg4 img{width: 100%;}
+
+		.bg5 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            margin-top: 900px;
+            margin-left: 95px;
+			position: absolute;
+            z-index: 7;
+        }
+.bg5 img{width: 1700px;}
+
+		.bg6 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            margin-top: 2290px;
+            left: 770px;
+			position: absolute;
+            z-index: 12;
+        }
+.bg6 img{width: 500px;}
+
+
+/*컨텐츠 2 건강문제*/
+
+.er-font {
+	font-family: 'EliceDigitalBaeum_Regular';
+	margin-top: 2620px;
+	width: 100%;
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	font-size: 19pt;
+	text-align: center;
+	line-height: 1.8;
+}
+span.y {
+	color: #ffdf56;
+}
+		.bg7 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            margin-top: 2880px;
+            left: 270px;
+			position: absolute;
+            z-index: 12;
+        }
+.bg7 img{width: 18%;}
+
+		.bg8 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            margin-top: 2933px;
+            left: 590px;
+			position: absolute;
+            z-index: 13;
+        }
+.bg8 img{width: 20%;}
+
+		.bg9 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            margin-top: 2880px;
+            left: 880px;
+			position: absolute;
+            z-index: 12;
+        }
+.bg9 img{width: 20%;}
+
+		.bg10 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            margin-top: 2880px;
+            left: 1250px;
+			position: absolute;
+            z-index: 12;
+        }
+.bg10 img{width: 20%;}
+
+/*컨텐츠 3 생각들*/
+
+		.bg11 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            top: 3570px;
+            left: 0px;
+			position: absolute;
+            z-index: 12;
+			opacity: 80%;
+			transform:
+    translateX(calc(var(--mouse-x) * 0.05px))
+    translateY(calc(var(--mouse-y) * 0.07px));
+        }
+.bg11 img{width: 100%;}
+
+		.bg12 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            top: 3800px;
+            left: 970px;
+			position: absolute;
+            z-index: 11;
+			transform:
+    translateX(calc(var(--mouse-x) * 0.02px))
+    translateY(calc(var(--mouse-y) * 0.05px));
+        }
+.bg12 img{width: 50%;}
+
+/*마지막 하단 테스트 구간*/
+		.bg13 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            top: 4900px;
+            margin-left: -60px;
+			position: absolute;
+            z-index: 11;
+        }
+.bg13 img{width: 2100px;}
+
+		.bg14 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            top: 4600px;
+            margin-left: -170px;
+			position: absolute;
+            z-index: 11;
+			opacity: 70%;
+        }
+.bg14 img{width: 2300px;}
+
+		.bg15 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            top: 4510px;
+            margin-left: -300px;
+			position: absolute;
+            z-index: 11;
+			opacity: 20%;
+			transform:
+    translateX(calc(var(--mouse-x) * 0.09px))
+    translateY(calc(var(--mouse-y) * 0.04px));
+        }
+.bg15 img{width: 2400px;}
+
+		.bg16 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            top: 4700px;
+            margin-left: -150px;
+			position: absolute;
+            z-index: 11;
+			opacity: 40%;
+			transform:
+    translateX(calc(var(--mouse-x) * 0.02px))
+    translateY(calc(var(--mouse-y) * 0.09px));
+        }
+.bg16 img{width: 2300px}
+
+		.bg17 {
+            width: 100%;
+            height: 500px;
+            width: 100%;
+            top: 5130px;
+            margin-left: 822px;
+			position: absolute;
+            z-index: 11;
+        }
+.bg17 img{width: 300px;}
+
+@keyframes blink-effect {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+/*스크롤바 애니메이션*/
+
+a {
+  padding-top: 80px;
+}
+a span {
+  z-index: 7;
+  position: absolute;
+  top: 850px;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+
+a span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+a span:nth-of-type(2) {
+  top: 866px;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+a span:nth-of-type(3) {
+  top: 882px;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+/*a span:nth-of-type(4) {
+  top: 898px;
+}*/
+
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.noto-font{
+	font-family: 'Noto Sans KR', sans-serif;
+	margin-top: 5800px;
+	width: 100%;
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	font-size: 8pt;
+	text-align: center;
+	line-height: 1.8;
+	font-weight: 90;
+}
+
+
+
+
